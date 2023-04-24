@@ -1,0 +1,15 @@
+*{
+    color: white;
+}
+
+.parent-grid{
+    height: 100vh;
+}
+
+.cardhov{
+    transition: .2s;
+}
+.cardhov:hover{
+    box-shadow: 4px 8px 30px 7px rgb(6, 37, 121);
+
+}

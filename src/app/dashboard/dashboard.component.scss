@@ -1,0 +1,75 @@
+//horizontal scroll class
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+
+//other classes
+.headtext{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: .3s;
+}
+.headtext:hover{
+    font-size: 48px;
+}
+.hero{
+    background-image: url(https://img.freepik.com/free-vector/futuristic-technological-wallpaper_79603-1093.jpg?w=900&t=st=1682104717~exp=1682105317~hmac=f5a13aa8cc06121428a8d90bdd9ca6dbd81c1aca25e6be0571fc7eb6e8a080bc);
+    // background-clip: url(/src/assets/videos/headerbg.mp4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    // z-index: -1;
+}
+.hovercard{
+    transition: .3s;
+}
+.sec-trans{
+    transition: 3s;
+}
+.text-trans{
+    transition: 2s;
+}
+// .video-slide{
+//     z-index: 9;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     object-fit: cover;
+// }
+//table styles
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  //extra styles for table
+  
+// :host ::ng-deep .mat-sort-header-content {
+//     color: #fff;
+// }
+
+// :host ::ng-deep .mat-paginator-outer-container {
+//     background-color: rgb(36, 37, 37);
+// }
+
+// :host ::ng-deep tr.mat-header-row {
+//     background-color: #001496;
+// }
+
+// :host ::ng-deep tr.mat-row {
+//     height: 70px;
+// }
